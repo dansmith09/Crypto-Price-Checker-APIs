@@ -1,0 +1,37 @@
+/* Editing purposes */
+* {
+    padding: 0;
+    margin: 0;
+    /* border: red 1px solid; */
+    font-family: Tahoma;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+}
+
+#mainContainer > * {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+}
+
+button {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
